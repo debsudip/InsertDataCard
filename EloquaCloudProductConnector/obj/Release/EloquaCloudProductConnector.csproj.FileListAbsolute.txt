@@ -1,0 +1,8 @@
+D:\GitHub\EloquaProduct\EloquaCloudProductConnector\bin\EloquaCloudProductConnector.dll
+D:\GitHub\EloquaProduct\EloquaCloudProductConnector\bin\EloquaCloudProductConnector.pdb
+D:\GitHub\EloquaProduct\EloquaCloudProductConnector\obj\Release\EloquaCloudProductConnector.dll
+D:\GitHub\EloquaProduct\EloquaCloudProductConnector\obj\Release\EloquaCloudProductConnector.pdb
+D:\GitHub\InsertDataCard\EloquaCloudProductConnector\bin\EloquaCloudProductConnector.dll
+D:\GitHub\InsertDataCard\EloquaCloudProductConnector\bin\EloquaCloudProductConnector.pdb
+D:\GitHub\InsertDataCard\EloquaCloudProductConnector\obj\Release\EloquaCloudProductConnector.dll
+D:\GitHub\InsertDataCard\EloquaCloudProductConnector\obj\Release\EloquaCloudProductConnector.pdb
