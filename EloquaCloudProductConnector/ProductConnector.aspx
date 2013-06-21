@@ -19,11 +19,7 @@
     <p>
         &nbsp;</p>
     <p style="text-align: center">
-        <asp:Button ID="btnContactProduct" runat="server" BackColor="#00CCFF" 
-            BorderStyle="Solid" Height="40px" onclick="btnContactProduct_Click" 
-            style="text-align: center; font-weight: 700; margin-bottom: 40px" 
-            Text="Generate Contact &amp; Product Association" Width="601px" />
-    </p>
+        Welcome to Test Cloud Connector</p>
     <p>
         &nbsp;</p>
     <p>

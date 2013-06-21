@@ -136,7 +136,7 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
         protected void Page_Load(object sender, EventArgs e)
         {
 
-
+            InsertDataCard();
         }
 
     }
