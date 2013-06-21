@@ -23,8 +23,9 @@
     <p style="text-align: center">
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     </p>
-    <p>
-        &nbsp;</p>
+    <p style="text-align: center">
+        <asp:Label ID="Label2" runat="server" style="text-align: center" Text="Label"></asp:Label>
+    </p>
     <p>
         &nbsp;</p>
     <p>

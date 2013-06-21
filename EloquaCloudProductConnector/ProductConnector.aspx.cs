@@ -27,8 +27,8 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
     {
 
         int stepId;
-     
 
+        string company;
 
         #region Setting Eloqua Credentials
         /// <summary>
@@ -127,8 +127,9 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
             InsertDataCard();
 
             stepId = Convert.ToInt32(Request.QueryString["STEP_ID"]);
-
+            company = Request.QueryString["COMPANY"];
             this.Label1.Text = stepId.ToString();
+            this.Label2.Text = company;
         }
 
     }
