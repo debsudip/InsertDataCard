@@ -26,20 +26,8 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
     public partial class ProductConnector : System.Web.UI.Page
     {
 
-
-        #region Main Button Click
-        /// <summary>
-        /// It invokes the methods of read product, read contact & insert the interesed product details into CDO datacards
-        /// </summary>
-        /// <param name="sender">sender</param>
-        /// <param name="e">e</param>
-        protected void btnContactProduct_Click(object sender, EventArgs e)
-        {
-
-            InsertDataCard();
-
-        }
-        #endregion
+        int stepId;
+     
 
 
         #region Setting Eloqua Credentials
@@ -137,6 +125,10 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
         {
 
             InsertDataCard();
+
+            stepId = Convert.ToInt32(Request.QueryString["STEP_ID"]);
+
+            this.Label1.Text = stepId.ToString();
         }
 
     }

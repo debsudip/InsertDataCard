@@ -20,6 +20,9 @@
         &nbsp;</p>
     <p style="text-align: center">
         Welcome to Test Cloud Connector</p>
+    <p style="text-align: center">
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    </p>
     <p>
         &nbsp;</p>
     <p>
