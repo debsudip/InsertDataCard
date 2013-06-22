@@ -113,24 +113,38 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
                         Response.Write("Exception Message: " + createError.ErrorCode.ToString());
                     }
                 }
-
-
-
             }
-
-
         }
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            InsertDataCard();
-
             stepId = Convert.ToInt32(Request.QueryString["STEP_ID"]);
             company = Request.QueryString["COMPANY"];
             this.Label1.Text = stepId.ToString();
             this.Label2.Text = company;
         }
+
+
+
+        protected void Timer1_Tick1(object sender, EventArgs e)
+        {
+            //InsertDataCard();
+            Label3.Text = "Timer refreshed at: " + DateTime.Now.ToLongTimeString();
+        }
+
+        protected void btnStart_Click(object sender, EventArgs e)
+        {
+            Timer1.Enabled = true;
+        }
+
+        protected void btnStop_Click(object sender, EventArgs e)
+        {
+            Timer1.Enabled = false;
+        }
+
+
+
+
 
     }
 }
