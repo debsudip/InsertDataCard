@@ -128,7 +128,7 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
 
         protected void Timer1_Tick1(object sender, EventArgs e)
         {
-            //InsertDataCard();
+           InsertDataCard();
             Label3.Text = "Timer refreshed at: " + DateTime.Now.ToLongTimeString();
         }
 
