@@ -118,8 +118,8 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            stepId = Request.QueryString["STEP_ID"];
-            company = Request.QueryString["COMPANY"];
+            stepId = Request.QueryString["StepID"];
+            company = Request.QueryString["Company"];
             this.Label1.Text = stepId;
             this.Label2.Text = company;
             InsertDataCard();
