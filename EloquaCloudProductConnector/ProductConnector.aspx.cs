@@ -26,7 +26,7 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
     public partial class ProductConnector : System.Web.UI.Page
     {
 
-        int stepId;
+        string  stepId;
 
         string company;
 
@@ -118,9 +118,9 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            stepId = Convert.ToInt32(Request.QueryString["STEP_ID"]);
+            stepId = Request.QueryString["STEP_ID"];
             company = Request.QueryString["COMPANY"];
-            this.Label1.Text = stepId.ToString();
+            this.Label1.Text = stepId;
             this.Label2.Text = company;
             InsertDataCard();
         }

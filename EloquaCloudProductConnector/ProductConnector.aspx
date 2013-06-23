@@ -41,13 +41,13 @@
             Welcome to Test Cloud Connector
         </p>
         <p style="text-align: center">
-            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="Label1" runat="server"></asp:Label>
         </p>
         <p style="text-align: center">
-            <asp:Label ID="Label2" runat="server" Style="text-align: center" Text="Label"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Style="text-align: center"></asp:Label>
         </p>
         <p style="text-align: center">
-            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="Label3" runat="server"></asp:Label>
         </p>
         </p>
     <div>
