@@ -122,6 +122,7 @@ namespace Philips.DigitalServices.Eloqua.EloquaCloudProductConnector
             company = Request.QueryString["COMPANY"];
             this.Label1.Text = stepId.ToString();
             this.Label2.Text = company;
+            InsertDataCard();
         }
 
 
